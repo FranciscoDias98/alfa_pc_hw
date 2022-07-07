@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="encoder_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="encoder_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="160.001 ns"></ZoomEndTime>
+      <Cursor1Time time="108.166 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="166"></NameColumnWidth>
+      <ValueColumnWidth column_width="68"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject type="group" fp_name="group1620">
+      <obj_property name="label">Input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/encoder_tb/clock">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/encoder_tb/reset">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/encoder_tb/byte_vec2">
+         <obj_property name="ElementShortName">byte_vec2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_vec2[7:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">0</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/encoder_tb/byte_vec">
+         <obj_property name="ElementShortName">byte_vec</obj_property>
+         <obj_property name="ObjectShortName">byte_vec</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider1623" type="divider">
+      <obj_property name="label">Compression</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#800080</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group1622">
+      <obj_property name="label">EncoderCore</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/encoder_tb/uut/r_low">
+         <obj_property name="ElementShortName">r_low[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_low[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/encoder_tb/uut/r_high">
+         <obj_property name="ElementShortName">r_high[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_high[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/encoder_tb/uut/r_range">
+         <obj_property name="ElementShortName">r_range[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_range[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/encoder_tb/uut/r_tmp">
+         <obj_property name="ElementShortName">r_tmp[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_tmp[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
